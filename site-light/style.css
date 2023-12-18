@@ -1,0 +1,224 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #a05500;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.navbar-nav a {
+  color: #fff !important;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.navbar-nav a:hover {
+  color: #ffc684 !important;
+  transition: 0.3s;
+}
+
+
+
+/* Hero Section Styles */
+.hero-section {
+  margin: 0 auto;
+  padding: 100px 20px 0px 20px;
+  background-color: #AD5C00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23AD850E'/%3E%3Cstop offset='1' stop-color='%23AD5C00'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23ad7107'/%3E%3Cstop offset='1' stop-color='%23AD5C00'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg transform='rotate(0 0 0)'%3E%3Cg transform='rotate(0 0 0)'%3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg transform='rotate(0 0 0)'%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0.1' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.hero-paragraph {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: rgb(255, 237, 209);
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.7rem;
+}
+
+
+
+
+
+/* About Section Styles */
+.about-section {
+    padding: 50px 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #AD5C00;
+    text-align: center;
+    margin: 30px;
+}
+
+.about-paragraph {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.about-image {
+    max-width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid white;
+}
+
+@media (max-width: 768px) {
+.about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-image {
+    margin-top: 20px;
+}
+}
+
+
+
+/* SERVIÇOS */
+
+.services-section {
+    padding: 50px 20px;
+    border-top: 2px solid #ad5c001e;
+}
+
+.services-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #AD5C00;
+}
+
+.card {
+    margin: 25px 5px;
+    background-color: #AD5C00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23bc6400' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23cc6c00' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23db7500' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23eb7d00' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23FA8500' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    border: 5px solid white;
+    margin: 10px;
+    width: 60%;
+    border-radius: 100%;
+}
+
+
+/* Contact Section Styles */
+.contact-section {
+    background-color: #f8f9fa; /* Cor de fundo da seção de contato */
+    padding: 100px 20px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #AD5C00;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Google Maps Styles */
+.google-maps {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    border: 5px solid #AD5C00;
+    border-radius: 5px;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+/* Footer Styles */
+.footer-section {
+    background-color: #6e3b00; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 20px 0;
+}
+  
+  .footer-section p {
+    margin: 0;
+    font-size: 1em;
+}
+  
