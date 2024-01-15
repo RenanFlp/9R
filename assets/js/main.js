@@ -152,3 +152,9 @@ function redirecionar() {
   // Abre o link em uma nova página
   window.open('https://mangools.com#a656e55c26aee0895a82cc8b3', '_blank');
 }
+
+
+function abrirNovaGuia(url) {
+  // Abrir a página em uma nova guia
+  window.open(url, '_blank');
+}
